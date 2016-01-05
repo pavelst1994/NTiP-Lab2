@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.label2 = new System.Windows.Forms.Label();
             this.buttonPiram = new System.Windows.Forms.Button();
             this.buttonParall = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,25 +46,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Лабораторная работа №2\r\nВыполнил:\r\nстудент гр.582-2\r\nСтепанов П.Ю.";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(260, 363);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(37, 13);
-            this.linkLabel1.TabIndex = 2;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "здесь";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(78, 363);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(185, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Исходный код можно просмотреть";
             // 
             // buttonPiram
             // 
@@ -120,14 +99,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(305, 387);
+            this.ClientSize = new System.Drawing.Size(299, 322);
             this.Controls.Add(this.buttonSphere);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonParall);
             this.Controls.Add(this.buttonPiram);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
             this.Name = "HeadForm";
             this.Text = "Расчет объёма фигур";
@@ -139,8 +116,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonPiram;
         private System.Windows.Forms.Button buttonParall;
         private System.Windows.Forms.Label label3;
